@@ -4,19 +4,19 @@
 # In[3]:
 
 
-#Tempreture Converter, converting from Celsius to Farenheit 
+#Tempreture Converter, converting from Celsius to Fahrenheit 
 
 import statistics 
 
-# Asking the value of the tempreture in Ceulsius 
+# Asking the value of the temperature in Celsius 
 
 celsius= float(input("Give the tempreture in Celsius: "))
 
-#Convert from celcius to fahrenheit using formula 
+#Convert from Celsius to Fahrenheit using the formula 
 
 fahrenheit= (celsius* 9/5) + 32
 
-#Printing the tempreture in Fahrenheit
+#Printing the temperature in Fahrenheit
 
 print(f"{celsius} degree in celsius corresponds to {fahrenheit} degree Fahrenheit")
 
